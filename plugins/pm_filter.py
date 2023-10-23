@@ -1855,7 +1855,6 @@ async def auto_filter(client, msg, spoll=False):
             return
         if len(message.text) < 100:
             search = message.text
-            m = wait message.reply_text("<b>ᴀɪ ᴊɪꜱʜᴜ ʙᴀʙᴀ  2.0 ɪs ᴡᴏʀᴋɪɴɢ...</b>")
             btn = [[
                     InlineKeyboardButton(f"Searching  🔍  for {search}", url=CHNL_LNK)
                     ]]
@@ -1888,7 +1887,6 @@ async def auto_filter(client, msg, spoll=False):
     else:
         message = msg.message.reply_to_message  # msg will be callback query
         search, files, offset, total_results = spoll
-        m = wait message.reply_text("<b>ᴀɪ ᴊɪꜱʜᴜ ʙᴀʙᴀ  2.0 ɪs ᴡᴏʀᴋɪɴɢ...</b>")
         btn = [[
                     InlineKeyboardButton(f"Searching  🔍  for {search}", url=CHNL_LNK)
                     ]]
