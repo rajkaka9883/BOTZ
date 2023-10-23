@@ -1,30 +1,22 @@
 class script(object):
     START_TXT = """<b>Hᴇʟʟᴏ {},
 Mʏ Nᴀᴍᴇ Is <a href=https://t.me/{}>{}</a>, I Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇs, Jᴜsᴛ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ As Aᴅᴍɪɴ Aɴᴅ Eɴᴊᴏʏ 😍
-
-🌿 𝐌𝐚𝐢𝐧𝐭𝐚𝐢𝐧𝐞𝐝 𝐁𝐲 : <a href='https://t.me/KUSHALHK'>𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑</a></b>"""
+</b>"""
 
     HELP_TXT = """<b>Hᴇʏ {}
 Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.
-
-🌿 𝐌𝐚𝐢𝐧𝐭𝐚𝐢𝐧𝐞𝐝 𝐁𝐲 : <a href='https://t.me/KUSHALHK'>𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑</a></b>"""
+</b>"""
  
     ABOUT_TXT = """<b>⍟───[ MY ᴅᴇᴛᴀɪʟꜱ ]───⍟
-‣ ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/TG_autofilter_bot>TG_autofilter_bot</a>
- ‣ My best friend : <a href='tg://settings'>ᴛʜɪs ᴘᴇʀsᴏɴ</a> 
- ‣ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/TG_UPDATES1'>UPDATES</a> 
- ‣ ʟɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ</a> 
- ‣ ʟᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>ᴘʏᴛʜᴏɴ 3</a> 
- ‣ ᴅᴀᴛᴀ ʙᴀsᴇ : <a href='https://www.mongodb.com/'>ᴍᴏɴɢᴏ ᴅʙ</a> 
- ‣ ʙᴏᴛ sᴇʀᴠᴇʀ : <a href='https://render.com'>RENDER</a> 
- ‣ ʙᴜɪʟᴅ sᴛᴀᴛᴜs : ᴠ2.7.1 [sᴛᴀʙʟᴇ]></b>"""
-
+🤖 ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/{}><b> ᴊɪꜱʜᴜ ʙᴀʙᴀ</b></a>
+👨‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/PERSONAL_CHAT_ASSISTANT_BOT></b><b> ᴊɪꜱʜᴜ <b></a>
+📝 ʟᴀɴɢᴜᴀɢᴇ : ᴘʏʀᴏɢʀᴀᴍ
+📚 ꜰʀᴀᴍᴇᴡᴏʀᴋ : ᴘʏᴛʜᴏɴ 3
+📡 ʜᴏsᴛᴇᴅ ᴏɴ : ʜᴇʀᴏᴋᴜ
+📢 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ : <a href=https://t.me/MOVIES_REQUEST_NOW_2_0></b><b>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a><b>
+🌟 ᴠᴇʀsɪᴏɴ : ᴠ 4.0 [ ʙᴇᴛᴀ ]\n</b></i>"""
     SOURCE_TXT = """
-<b>Hᴇʏ, Tʜɪs ɪs ᴀ Oᴘᴇɴ Sᴏᴜʀᴄᴇ Pʀᴏᴊᴇᴄᴛ.
-
-Tʜɪs Bᴏᴛ ʜᴀs Lᴀᴛᴇsᴛ ᴀɴᴅ Aᴅᴠᴀɴᴄᴇᴅ Fᴇᴀᴛᴜʀᴇs⚡️
-
-Fork our repository and give star ⭐- <a href='https://github.com/Kushalhk/TG_BOTZ/tree/stream-feature'>📥 ᴄʟɪᴄᴋ ʜᴇʀᴇ 📥</a></b>
+<b>Tʜɪꜱ Bᴏᴛ Iꜱ NOT Oᴘᴇɴ Sᴏᴜʀᴄᴇ Pʀᴏᴊᴇᴄᴛ.</b>
 """
 
     MANUELFILTER_TXT = """ʜᴇʟᴘ: <b>ꜰɪʟᴛᴇʀꜱ</b>
@@ -46,7 +38,7 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 2. ᴛʜɪꜱ ʙᴏᴛ ꜱᴜᴘᴘᴏʀᴛꜱ ʙᴜᴛᴛᴏɴꜱ ᴡɪᴛʜ ᴀɴʏ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇᴅɪᴀ ᴛʏᴘᴇ.
 3. ʙᴜᴛᴛᴏɴꜱ ꜱʜᴏᴜʟᴅ ʙᴇ ᴘʀᴏᴘᴇʀʟʏ ᴘᴀʀꜱᴇᴅ ᴀꜱ ᴍᴀʀᴋᴅᴏᴡɴ ꜰᴏʀᴍᴀᴛ
 <b>ᴜʀʟ ʙᴜᴛᴛᴏɴꜱ:</b>
-<code>[Button Text](buttonurl:https://t.me/TG_UPDATES1)</code>
+<code>[Button Text](buttonurl:https://t.me/moviee_Hub_channel)</code>
 <b>ᴀʟᴇʀᴛ ʙᴜᴛᴛᴏɴꜱ:</b>
 <code>[Button Text](buttonalert:ᴛʜɪꜱ ɪꜱ ᴀɴ ᴀʟᴇʀᴛ ᴍᴇꜱꜱᴀɢᴇ)</code>"""
 
@@ -75,9 +67,9 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
     EXTRAMOD_TXT = """ʜᴇʟᴘ: Exᴛʀᴀ Mᴏᴅᴜʟᴇs
 <b>ɴᴏᴛᴇ:</b>
 my features Stay here new features coming soon...  
- <b>✯ Maintained by : <a href=https://t.me/KUSHALHK>OWNER</a></b>
+ <b>✯ Maintained by : <a href=https://t.me/PERSONAL_CHAT_ASSISTANT_BOT</a></b>
   
- <b>✯ Join here : <a href=https://t.me/TG_UPDATES1>Join my updateds</a></b> 
+ <b>✯ Join here : <a href=https://t.me/bot_Update_jishu>Join my updateds</a></b> 
   
  ./id - <code>ɢᴇᴛ ɪᴅ ᴏꜰ ᴀ ꜱᴘᴇᴄɪꜰɪᴇᴅ ᴜꜱᴇʀ.</ 
  code> 
@@ -168,7 +160,7 @@ Nᴀᴍᴇ - {}"""
     MELCOW_ENG = """<b>Hᴇʟʟᴏ {} 😍, Aɴᴅ Wᴇʟᴄᴏᴍᴇ Tᴏ {} Gʀᴏᴜᴘ ❤️</b>"""
 
     SHORTLINK_INFO = """
-<b>──────「<a href=https://t.me/TG_UPADTES1/346> Hᴏᴡ ᴛᴏ Eᴀʀɴ Mᴏɴᴇʏ </a> 」──────
+<b>──────「<a href=https://t.me/bot_Update_jishu> Hᴏᴡ ᴛᴏ Eᴀʀɴ Mᴏɴᴇʏ </a> 」──────
 
 Yᴏᴜ ᴄᴀɴ Eᴀʀɴ Mᴏɴᴇʏ Fʀᴏᴍ Tʜɪs Bᴏᴛ Uɴᴛɪʟ ᴛʜɪs ʙᴏᴛ ɪs ᴀʟɪᴠᴇ.
 
@@ -176,9 +168,9 @@ Wᴀɴᴛ ᴛᴏ Kɴᴏᴡ Hᴏᴡ? Fᴏʟʟᴏᴡ Tʜᴇsᴇ Sᴛᴇᴘs:-
 
 sᴛᴇᴘ 𝟷 : ʏᴏᴜ ᴍᴜsᴛ ʜᴀᴠᴇ ᴀᴛʟᴇᴀsᴛ ᴏɴᴇ ɢʀᴏᴜᴘ ᴡɪᴛʜ ᴍɪɴɪᴍᴜᴍ 1𝟶𝟶 ᴍᴇᴍʙᴇʀs.
 
-sᴛᴇᴘ 𝟸 : ᴍᴀᴋᴇ ᴀᴄᴄᴏᴜɴᴛ ᴏɴ Aɴʏ <a href=https://moneykamalo.com/ref/Harikushal>Sʜᴏʀᴛᴇɴᴇʀ Wᴇʙsɪᴛᴇ</a>.
+sᴛᴇᴘ 𝟸 : ᴍᴀᴋᴇ ᴀᴄᴄᴏᴜɴᴛ ᴏɴ Aɴʏ <a href=>Sʜᴏʀᴛᴇɴᴇʀ Wᴇʙsɪᴛᴇ</a>.
 
-sᴛᴇᴘ 𝟹 : ꜰᴏʟʟᴏᴡ ᴛʜᴇsᴇ <a href=https://t.me/TG_UPDATES1/346> ɪɴꜱᴛʀᴜᴄᴛɪᴏɴꜱ </a>Tᴏ ᴄᴏɴɴᴇᴄᴛ sʜᴏʀᴛᴇɴᴇʀ.
+sᴛᴇᴘ 𝟹 : ꜰᴏʟʟᴏᴡ ᴛʜᴇsᴇ <a href=https://t.me/bot_Update_jishu> ɪɴꜱᴛʀᴜᴄᴛɪᴏɴꜱ </a>Tᴏ ᴄᴏɴɴᴇᴄᴛ sʜᴏʀᴛᴇɴᴇʀ.
 
 ➣ Yᴏᴜ ᴄᴀɴ ᴄᴏɴɴᴇᴄᴛ ᴀs ᴍᴀɴʏ ɢʀᴏᴜᴘ ʏᴏᴜ ʜᴀᴠᴇ.
 
@@ -219,30 +211,31 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """ 
-<b>══════════════════
-🗂 {file_name}
-═══════════════════ 
-𝐒𝐔𝐁𝐒𝐂𝐑𝐈𝐁𝐄 𝐇𝐄𝐑𝐄 👇
-╔══════════════════╗         
-    <a href="https://t.me/TG_LINKS_CHANNEL">🔱 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 🔱</a>
-╚══════════════════╝</b>"""
-    IMDB_TEMPLATE_TXT = """
-<b>Query: {qurey}
+    CAPTION =  """<b> 📂 Fɪʟᴇ ɴᴀᴍᴇ : @moviee_Hub_channel {file_name} 
+    
+════════※ ·❆· ※════════
+▫️ Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ : <a href="https://t.me/bot_Update_jishu">𝗕𝗢𝗧 𝗨𝗣𝗗𝗔𝗧𝗘</a>
+▫️ Mʏ Oᴡɴᴇʀ : <a href="https://t.me/Jishubabu">𝐁𝐀𝐁𝐀 𝐃𝐀</a>  
+════════※ ·❆· ※════════
 
-IMDb Data:
-
-<b>🏷 Title</b>: <a href={url}>{title}</a>
-🎭 Genres: {genres}
-📆 Year: <a href={url}/releaseinfo>{year}</a>
-🌟 Rating: <a href={url}/ratings>{rating}</a> / 10 (based on {votes} user ratings.)
-☀️ Languages : <code>{languages}</code>
+🚫 ᴘʟᴇᴀsᴇ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ᴄʟᴏsᴇ ʙᴜᴛᴛᴏɴ ɪꜰ ʏᴏᴜ ʜᴀᴠᴇ sᴇᴇɴ ᴛʜᴇ ᴍᴏᴠɪᴇ 🚫
+</b>"""
+    IMDB_TEMPLATE_TXT = """<b>✅ Qᴜᴇʀʏ: <code>{query}</code>
+    ɪᴍᴅʙ ᴅᴀᴛᴀ: <a href=https://t.me/moviee_Hub_channel>@ᴍᴏᴠɪᴇᴇ_ʜᴜʙ_ᴄʜᴀɴɴᴇʟ</a>
+    
+☘️ Tιтle : <a href={url}>{title}</a>
+🍁 ɢᴇɴʀᴇs ➠ {genres}
+📆 Yᴇᴀʀ ➠ <a href={url}/releaseinfo>{year}</a>
+❄️ ʀᴀᴛɪɴɢ ➠ <a href={url}/ratings>{rating}</a> / 10 (based on {votes} user ratings.)
+🌼 ʟᴀɴɢᴜᴀɢᴇꜱ ➠ <code>{languages}</code>
 📀 RunTime: {runtime} Minutes
-📆 Release Info : {release_date}
-🎛 Countries : <code>{countries}</code>
-⏰ Result Shown in: {remaining_seconds} 
+📆 ʀᴇʟᴇᴀꜱᴇ ɪɴꜰᴏ ➠ {release_date}
+‌‌‌‌🌏 ᴄᴏᴜɴᴛʀʏ ➠ <code>{countries}</code>
 
-💁‍♂️ 𝐑𝐞𝐪𝐮𝐞𝐬𝐭𝐞𝐝 𝐁𝐲 : {message.from_user.mention}</b>"""
+🧑‍🎤 ʀᴇQᴜᴇꜱᴛᴇᴅ ʙʏ : {message.from_user.mention}
+
+🌐 ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➠  {message.chat.title}</b>"""
+
     
     ALL_FILTERS = """
 <b>Hᴇʏ {}, Tʜᴇsᴇ ᴀʀᴇ ᴍʏ ᴛʜʀᴇᴇ ᴛʏᴘᴇs ᴏғ ғɪʟᴛᴇʀs.</b>"""
@@ -460,29 +453,7 @@ Aᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs:
  (__) \___/  (____/ \__/ (__) (____)"""
 
 # dont remove my logo 
-    PAID_TXT = """<b>Join a Prime group to get free movie without any ads
-Your time is valuable, Stop watching ads and simply avoid the stupidity
-<a href='https://telegram.me/+uaYeWVXMRrk2Zjk1'>➹ 🅰︎🅳︎ 🅵︎🆁︎🅴︎🅴︎ 🅶︎🆁︎🅾︎🆄︎🅿︎ ➹</a>
-
-Prime Membership Progress
-
-1 month - 15 Rs
-
-3 Months – 50 RS
-
-6 months - 95 Rs
-
-12 Months - 300 Rs [1 Month Free Trial]
-
-♛ UPI ID »»————> harikushal234@okicici
-
-Would you like to become a Prime Member? Follow these steps:-
-
-✤ Step 1: Go to any payment app like Google PAY, PAYTM,
-✤ Step 2: Pay using UPI ID depending on your plan.
-✤ Step 3 : Send screenshot to our admin or owner Or contact me to send a screenshot.
-
-Any doubts or how to become a prime member? contact me @KUSHALHK @TG_Bots_Supporter</code></b>"""
+    PAID_TXT = ɴᴏᴛ ʀᴇᴀᴅʏ
 
 
 
