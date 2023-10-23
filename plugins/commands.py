@@ -161,7 +161,7 @@ async def start(client, message):
                             ],[
                             ],
                             [
-                                InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @LazyDeveloperr
+                                InlineKeyboardButton('😃 ᴡᴀᴛᴄʜ & ᴅᴏᴡɴʟᴏᴀᴅ 😋', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @LazyDeveloperr
                                ],[ 
                                    InlineKeyboardButton('⁉️ ᴄʟᴏsᴇ ⁉️', callback_data='close_data') 
                             ]
@@ -181,7 +181,7 @@ async def start(client, message):
                          [
                        ],[
                          ],[ 
-                            InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @LazyDeveloperr
+                            InlineKeyboardButton('😃 ᴡᴀᴛᴄʜ & ᴅᴏᴡɴʟᴏᴀᴅ 😋', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @LazyDeveloperr
                              ],[ 
                                  InlineKeyboardButton('⁉️ ᴄʟᴏsᴇ ⁉️', callback_data='close_data')
                             ]
@@ -340,7 +340,7 @@ async def start(client, message):
                    ],[
                      ],
                      [
-                        InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @LazyDeveloperr
+                        InlineKeyboardButton('😃 ᴡᴀᴛᴄʜ & ᴅᴏᴡɴʟᴏᴀᴅ 😋', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @LazyDeveloperr
                         ],[ 
                             InlineKeyboardButton('⁉️ ᴄʟᴏsᴇ ⁉️', callback_data='close_data') 
 
@@ -349,7 +349,7 @@ async def start(client, message):
                 )
             )
             filesarr.append(msg)
-        k = await client.send_message(chat_id = message.from_user.id, text=f"<b><u>❗️❗️❗️IMPORTANT❗️️❗️❗️</u></b>\n\nThis Movie Files/Videos will be deleted in <b><u>10 mins</u> 🫥 <i></b>(Due to Copyright Issues)</i>.\n\n<b><i>Please forward this ALL Files/Videos to your Saved Messages and Start Download there</i></b>")
+        k = await client.send_message(chat_id = message.from_user.id, text=f"<b>ᴛʜᴀɴᴋ ʏᴏᴜ ᴀʟʟ ꜰᴏʀ ʙᴇɪɴɢ ᴡɪᴛʜ ᴜꜱ. ʜᴏᴘᴇꜰᴜʟʟʏ ᴇᴠᴇʀʏᴏɴᴇ ᴡɪʟʟ ꜱᴛᴀɴᴅ ʙʏ ʟɪᴋᴇ ᴛʜɪꜱ/n/nআমাদের সাথে থাকার জন্য সবাইকে ধন্যবাদ। আশা করি সবাই এভাবেই পাশে থাকবেন</b>")
         await asyncio.sleep()
         for x in filesarr:
             await x.delete()
@@ -405,7 +405,7 @@ async def start(client, message):
                    ],[
                      ],
                      [
-                        InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @LazyDeveloperr
+                        InlineKeyboardButton('😃 ᴡᴀᴛᴄʜ & ᴅᴏᴡɴʟᴏᴀᴅ 😋', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @LazyDeveloperr
                         ],[ 
                             InlineKeyboardButton('⁉️ ᴄʟᴏsᴇ ⁉️', callback_data='close_data')  
                      ]
@@ -414,7 +414,7 @@ async def start(client, message):
             )
             filetype = msg.media
             file = getattr(msg, filetype.value)
-            title = '@TG_LINKS_CHANNEL  ' + ' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), file.file_name.split()))
+            title = '@moviee_Hub_channel ' + ' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), file.file_name.split()))
             size=get_size(file.file_size)
             f_caption = f"<code>{title}</code>"
             if CUSTOM_FILE_CAPTION:
@@ -426,8 +426,8 @@ async def start(client, message):
             btn = [[
                 InlineKeyboardButton("Get File Again", callback_data=f'delfile#{file_id}')
             ]]
-            k = await msg.reply("<b><u>❗️❗️❗️IMPORTANT❗️️❗️❗️</u></b>\n\nThis Movie File/Video will be deleted in <b><u>10 mins</u> 🫥 <i></b>(Due to Copyright Issues)</i>.\n\n<b><i>Please forward this File/Video to your Saved Messages and Start Download there</i></b>",quote=True)
-            await asyncio.sleep(600)
+            k = await msg.reply("<b>ᴛʜᴀɴᴋ ʏᴏᴜ ᴀʟʟ ꜰᴏʀ ʙᴇɪɴɢ ᴡɪᴛʜ ᴜꜱ. ʜᴏᴘᴇꜰᴜʟʟʏ ᴇᴠᴇʀʏᴏɴᴇ ᴡɪʟʟ ꜱᴛᴀɴᴅ ʙʏ ʟɪᴋᴇ ᴛʜɪꜱ/n/nআমাদের সাথে থাকার জন্য সবাইকে ধন্যবাদ। আশা করি সবাই এভাবেই পাশে থাকবেন </b>",quote=True)
+            await asyncio.sleep()
             await msg.delete()
             await k.edit_text("<b>Your File/Video is successfully deleted!!!\n\nClick below button to get your deleted file 👇</b>",reply_markup=InlineKeyboardMarkup(btn))
             return
@@ -435,7 +435,7 @@ async def start(client, message):
             pass
         return await message.reply('No such file exist.')
     files = files_[0]
-    title = '@TG_LINKS_CHANNEL  ' + ' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), files.file_name.split()))
+    title = '@moviee_Hub_channel  ' + ' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), files.file_name.split()))
     size=get_size(files.file_size)
     f_caption=files.caption
     if CUSTOM_FILE_CAPTION:
@@ -467,7 +467,7 @@ async def start(client, message):
            ],[
              ],
              [
-              InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @LazyDeveloperr
+              InlineKeyboardButton('  😃 ᴡᴀᴛᴄʜ & ᴅᴏᴡɴʟᴏᴀᴅ 😋', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @LazyDeveloperr
                ],[ 
                     InlineKeyboardButton('⁉️ ᴄʟᴏsᴇ ⁉️', callback_data='close_data')  
              ]
@@ -477,7 +477,7 @@ async def start(client, message):
     btn = [[
         InlineKeyboardButton("Get File Again", callback_data=f'delfile#{file_id}')
     ]]
-    k = await msg.reply("<b><u>❗️❗️❗️IMPORTANT❗️️❗️❗️</u></b>\n\nThis Movie File/Video will be deleted in <b><u>10 mins</u> 🫥 <i></b>(Due to Copyright Issues)</i>.\n\n<b><i>Please forward this File/Video to your Saved Messages and Start Download there</i></b>",quote=True)
+    k = await msg.reply("<b>ᴛʜᴀɴᴋ ʏᴏᴜ ᴀʟʟ ꜰᴏʀ ʙᴇɪɴɢ ᴡɪᴛʜ ᴜꜱ. ʜᴏᴘᴇꜰᴜʟʟʏ ᴇᴠᴇʀʏᴏɴᴇ ᴡɪʟʟ ꜱᴛᴀɴᴅ ʙʏ ʟɪᴋᴇ ᴛʜɪꜱ/n/nআমাদের সাথে থাকার জন্য সবাইকে ধন্যবাদ। আশা করি সবাই এভাবেই পাশে থাকবেন</b>",quote=True)
     await asyncio.sleep()
     await msg.delete()
     await k.edit_text("<b>Your File/Video is successfully deleted!!!\n\nClick below button to get your deleted file 👇</b>",reply_markup=InlineKeyboardMarkup(btn))
