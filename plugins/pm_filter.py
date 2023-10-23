@@ -84,7 +84,8 @@ async def pm_text(bot, message):
                 InlineKeyboardButton("🍟 Mᴏᴠɪᴇ Gʀᴏᴜᴘ 🍟", url=f"https://t.me/Full_Entertainment_Group")
             ],[
                 InlineKeyboardButton('⁉️ ᴄʟᴏsᴇ ⁉️', callback_data='close_data')
-            ]]  
+            ]]
+         )
     )    
     await bot.send_message(
         chat_id=LOG_CHANNEL,
