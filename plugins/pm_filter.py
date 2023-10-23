@@ -136,7 +136,7 @@ async def next_page(bot, query):
             [
                 InlineKeyboardButton("⭕️ ꜱᴇɴᴅ ᴀʟʟ ⭕️",  callback_data=f"sendfiles#{key}"),
                 InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{key}"),
-                InlineKeyboardButton(f'♻️ ᴛɪᴘꜱ ♻️', 'select'))
+                InlineKeyboardButton(f'♻️ ᴛɪᴘꜱ ♻️', 'select')
             ]
         )
         btn.insert(0, [
