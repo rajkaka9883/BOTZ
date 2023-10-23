@@ -45,7 +45,7 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('🍂 ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ 🍂', url=CHNL_LNK),
+                    InlineKeyboardButton('🍂 ᴜᴘᴅᴀᴛᴇꜱ 🍂', url=CHNL_LNK),
                     InlineKeyboardButton('✨ Mᴏᴠɪᴇ Gʀᴏᴜᴘ ✨', url="https://t.me/Full_Entertainment_Group")
                 ],[
                     InlineKeyboardButton('☘️ ᴊᴏɪɴ ᴀᴅ ꜰʀᴇᴇ ɢʀᴏᴜᴘ ☘️', callback_data='paid')
@@ -98,7 +98,7 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('🍂 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 🍂', url=CHNL_LNK),
+                    InlineKeyboardButton('🍂 ᴜᴘᴅᴀᴛᴇꜱ 🍂', url=CHNL_LNK),
                     InlineKeyboardButton('✨ Mᴏᴠɪᴇ Gʀᴏᴜᴘ ✨', url="https://t.me/movies_hub_official1")
                 ],[
                     InlineKeyboardButton('☘️ ᴊᴏɪɴ ᴀᴅ ꜰʀᴇᴇ ɢʀᴏᴜᴘ ☘️', callback_data='paid')
