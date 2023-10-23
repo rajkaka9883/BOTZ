@@ -426,7 +426,7 @@ async def start(client, message):
             btn = [[
                 InlineKeyboardButton("Get File Again", callback_data=f'delfile#{file_id}')
             ]]
-            k = await msg.reply("<b>ᴛʜᴀɴᴋ ʏᴏᴜ ᴀʟʟ ꜰᴏʀ ʙᴇɪɴɢ ᴡɪᴛʜ ᴜꜱ. ʜᴏᴘᴇꜰᴜʟʟʏ ᴇᴠᴇʀʏᴏɴᴇ ᴡɪʟʟ ꜱᴛᴀɴᴅ ʙʏ ʟɪᴋᴇ ᴛʜɪꜱ ,/n/n আমাদের সাথে থাকার জন্য সবাইকে ধন্যবাদ। আশা করি সবাই এভাবেই পাশে থাকবেন </b>",quote=True)
+            k = await msg.reply("<b>ᴛʜᴀɴᴋ ʏᴏᴜ ᴀʟʟ ꜰᴏʀ ʙᴇɪɴɢ ᴡɪᴛʜ ᴜꜱ. ʜᴏᴘᴇꜰᴜʟʟʏ ᴇᴠᴇʀʏᴏɴᴇ ᴡɪʟʟ ꜱᴛᴀɴᴅ ʙʏ ʟɪᴋᴇ ᴛʜɪꜱ</b>, \n\n<b><i> আমাদের সাথে থাকার জন্য সবাইকে ধন্যবাদ। আশা করি সবাই এভাবেই পাশে থাকবেন </i></b>",quote=True)
             await asyncio.sleep()
             await msg.delete()
             await k.edit_text("<b>Your File/Video is successfully deleted!!!\n\nClick below button to get your deleted file 👇</b>",reply_markup=InlineKeyboardMarkup(btn))
@@ -445,7 +445,7 @@ async def start(client, message):
             logger.exception(e)
             f_caption=f_caption
     if f_caption is None:
-        f_caption = f"@TG_LINKS_CHANNEL  {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), files.file_name.split()))}"
+        f_caption = f"@moviee_Hub_channel  {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), files.file_name.split()))}"
     if not await check_verification(client, message.from_user.id) and VERIFY == True:
         btn = [[
             InlineKeyboardButton("Verify", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start="))
@@ -477,7 +477,7 @@ async def start(client, message):
     btn = [[
         InlineKeyboardButton("Get File Again", callback_data=f'delfile#{file_id}')
     ]]
-    k = await msg.reply("<b>ᴛʜᴀɴᴋ ʏᴏᴜ ᴀʟʟ ꜰᴏʀ ʙᴇɪɴɢ ᴡɪᴛʜ ᴜꜱ. ʜᴏᴘᴇꜰᴜʟʟʏ ᴇᴠᴇʀʏᴏɴᴇ ᴡɪʟʟ ꜱᴛᴀɴᴅ ʙʏ ʟɪᴋᴇ ᴛʜɪꜱ,/n/nআমাদের সাথে থাকার জন্য সবাইকে ধন্যবাদ। আশা করি সবাই এভাবেই পাশে থাকবেন</b>",quote=True)
+    k = await msg.reply("<b>ᴛʜᴀɴᴋ ʏᴏᴜ ᴀʟʟ ꜰᴏʀ ʙᴇɪɴɢ ᴡɪᴛʜ ᴜꜱ. ʜᴏᴘᴇꜰᴜʟʟʏ ᴇᴠᴇʀʏᴏɴᴇ ᴡɪʟʟ ꜱᴛᴀɴᴅ ʙʏ ʟɪᴋᴇ ᴛʜɪꜱ</b>,/n/n<b><i>আমাদের সাথে থাকার জন্য সবাইকে ধন্যবাদ। আশা করি সবাই এভাবেই পাশে থাকবেন<i></b>",quote=True)
     await asyncio.sleep()
     await msg.delete()
     await k.edit_text("<b>Your File/Video is successfully deleted!!!\n\nClick below button to get your deleted file 👇</b>",reply_markup=InlineKeyboardMarkup(btn))
