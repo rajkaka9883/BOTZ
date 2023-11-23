@@ -691,7 +691,7 @@ async def get_cap(settings, remaining_seconds, files, query, total_results, sear
             cap = IMDB_CAP
             cap+="<b>\n\n<u>📚 Requested Files 👇</u></b>\n\n"
             for file in files:
-                cap += f"<b>🔻 <a href='https://telegram.me/{temp.U_NAME}?start=files_{file.file_id}'>[{get_size(file.file_size)}] {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@') and not x.startswith('www.'), file.file_name.split()))}\n\n</a></b>"
+                cap += f"<b>📁 <a href='https://telegram.me/{temp.U_NAME}?start=files_{file.file_id}'>[{get_size(file.file_size)}] {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@') and not x.startswith('www.'), file.file_name.split()))}\n\n</a></b>"
         else:
             imdb = await get_poster(search, file=(files[0]).file_name) if settings["imdb"] else None
             if imdb:
@@ -729,15 +729,15 @@ async def get_cap(settings, remaining_seconds, files, query, total_results, sear
                 )
                 cap+="<b>\n\n<u>📚 Requested Files 👇</u></b>\n\n"
                 for file in files:
-                    cap += f"<b>🔻 <a href='https://telegram.me/{temp.U_NAME}?start=files_{file.file_id}'>[{get_size(file.file_size)}] {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@') and not x.startswith('www.'), file.file_name.split()))}\n\n</a></b>"
+                    cap += f"<b>📁 <a href='https://telegram.me/{temp.U_NAME}?start=files_{file.file_id}'>[{get_size(file.file_size)}] {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@') and not x.startswith('www.'), file.file_name.split()))}\n\n</a></b>"
             else:
-                cap = f"<b>💭 Nᴀᴍᴀsᴛᴇ {message.from_user.mention}ᴊɪ🥰,\n♻️ ʜᴇʀᴇ ɪ ꜰᴏᴜɴᴅ {total_results} Rᴇsᴜʟᴛs ꜰᴏʀ ʏᴏᴜʀ Qᴜᴇʀʏ {search}...\nʀᴇsᴜʟᴛ sʜᴏᴡ ɪɴ{remaining_seconds} sᴇᴄᴏɴᴅs 😊\n⚠️ ᴀꜰᴛᴇʀ 5 ᴍɪɴᴜᴛᴇꜱ ᴛʜɪꜱ ᴍᴇꜱꜱᴀɢᴇ ᴡɪʟʟ ʙᴇ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴅᴇʟᴇᴛᴇᴅ 🗑\n\n</b>"
+                cap = f"<b>🔰 Tɪᴛʟᴇ : {search}\n\n👻 Rᴇǫᴜᴇsᴛᴇᴅ Bʏ :   {message.from_user.mention}\n\n⏰ Rᴇsᴜʟᴛ Sʜᴏᴡɴ Iɴ : {remaining_seconds} sᴇᴄᴏɴᴅs\n\n🌿 Pᴏᴡᴇʀᴇᴅ Bʏ : {message.chat.title} \n\n</b>"
                 cap+="<b><u>📚 Requested Files 👇</u></b>\n\n"
                 for file in files:
-                    cap += f"<b>🔻 <a href='https://telegram.me/{temp.U_NAME}?start=files_{file.file_id}'>[{get_size(file.file_size)}] {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@') and not x.startswith('www.'), file.file_name.split()))}\n\n</a></b>"
+                    cap += f"<b>📁 <a href='https://telegram.me/{temp.U_NAME}?start=files_{file.file_id}'>[{get_size(file.file_size)}] {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@') and not x.startswith('www.'), file.file_name.split()))}\n\n</a></b>"
     else:
-        cap =  f"<b>💭 Nᴀᴍᴀsᴛᴇ {message.from_user.mention}ᴊɪ🥰,\n♻️ ʜᴇʀᴇ ɪ ꜰᴏᴜɴᴅ {total_results} Rᴇsᴜʟᴛs ꜰᴏʀ ʏᴏᴜʀ Qᴜᴇʀʏ {search}...\nʀᴇsᴜʟᴛ sʜᴏᴡ ɪɴ{remaining_seconds} sᴇᴄᴏɴᴅs 😊\n⚠️ ᴀꜰᴛᴇʀ 5 ᴍɪɴᴜᴛᴇꜱ ᴛʜɪꜱ ᴍᴇꜱꜱᴀɢᴇ ᴡɪʟʟ ʙᴇ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴅᴇʟᴇᴛᴇᴅ 🗑\n\n</b>"
+        cap =  f"<b>💭 Nᴀᴍᴀsᴛᴇ {message.from_user.mention}ᴊɪ🥰,\n♻️ ʜᴇʀᴇ ɪ ꜰᴏᴜɴᴅ {total_results} Rᴇsᴜʟᴛs ꜰᴏʀ ʏᴏᴜʀ Qᴜᴇʀʏ {search}...\nʀᴇsᴜʟᴛ sʜᴏᴡ ɪɴ{remaining_seconds} sᴇᴄᴏɴᴅs 😊\n\n"
         cap+="<b><u>📚 Requested Files 👇</u></b>\n\n"
         for file in files:
-            cap += f"<b>🔻 <a href='https://telegram.me/{temp.U_NAME}?start=files_{file.file_id}'>[{get_size(file.file_size)}] {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@') and not x.startswith('www.'), file.file_name.split()))}\n\n</a></b>"
+            cap += f"<b>📁 <a href='https://telegram.me/{temp.U_NAME}?start=files_{file.file_id}'>[{get_size(file.file_size)}] {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@') and not x.startswith('www.'), file.file_name.split()))}\n\n</a></b>"
     return cap
