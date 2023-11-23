@@ -76,7 +76,7 @@ async def start(client, message):
         btn = [
             [
                 InlineKeyboardButton(
-                    "❆ Jᴏɪɴ Oᴜʀ Cʜᴀɴɴᴇʟ ❆", url=invite_link.invite_link
+                    "📌 Jᴏɪɴ Oᴜʀ Cʜᴀɴɴᴇʟ 📌", url=invite_link.invite_link
                 )
             ]
         ]
@@ -89,7 +89,7 @@ async def start(client, message):
                 btn.append([InlineKeyboardButton("↻ Tʀʏ Aɢᴀɪɴ", url=f"https://t.me/{temp.U_NAME}?start={message.command[1]}")])
         await client.send_message(
             chat_id=message.from_user.id,
-            text="**You are not in our channel given below so you don't get the movie file...\n\nIf you want the movie file, click on the '🍿ᴊᴏɪɴ ᴏᴜʀ ʙᴀᴄᴋ-ᴜᴘ ᴄʜᴀɴɴᴇʟ🍿' button below and join our back-up channel, then click on the '🔄 Try Again' button below...\n\nThen you will get the movie files...**",
+            text="<b>ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ɪɴ ᴏᴜʀ ᴄʜᴀɴɴᴇʟ ɢɪᴠᴇɴ ʙᴇʟᴏᴡ ꜱᴏ ʏᴏᴜ ᴅᴏɴ'ᴛ ɢᴇᴛ ᴛʜᴇ ᴍᴏᴠɪᴇ ꜰɪʟᴇ...\n\nɪꜰ ʏᴏᴜ ᴡᴀɴᴛ ᴛʜᴇ ᴍᴏᴠɪᴇ ꜰɪʟᴇ, ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ '📌 ᴊᴏɪɴ ᴏᴜʀ ʙᴀᴄᴋ-ᴜᴘ ᴄʜᴀɴɴᴇʟ 📌' ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴀɴᴅ ᴊᴏɪɴ ᴏᴜʀ ʙᴀᴄᴋ-ᴜᴘ ᴄʜᴀɴɴᴇʟ, ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ '↻ Tʀʏ Aɢᴀɪɴ' ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ...\n\nᴛʜᴇɴ ʏᴏᴜ ᴡɪʟʟ ɢᴇᴛ ʏᴏᴜʀ ꜰɪʟᴇꜱ...</b>",
             reply_markup=InlineKeyboardMarkup(btn),
             parse_mode=enums.ParseMode.MARKDOWN
             )
@@ -157,14 +157,14 @@ async def start(client, message):
                     protect_content=msg.get('protect', False),
                     reply_markup=InlineKeyboardMarkup(
                         [
-                            [
-                            ],[
-                            ],
-                            [
-                                InlineKeyboardButton('😃 ᴡᴀᴛᴄʜ & ᴅᴏᴡɴʟᴏᴀᴅ 😋', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @LazyDeveloperr
-                               ],[ 
-                                   InlineKeyboardButton('⁉️ ᴄʟᴏsᴇ ⁉️', callback_data='close_data') 
-                            ]
+                         [
+                           InlineKeyboardButton('🎥 ᴡᴀᴛᴄʜ & ᴅᴏᴡɴʟᴏᴀᴅ 🔋', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @LazyDeveloperr
+                       ],[       
+                          InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ 📢', url=GRP_LNK),
+                          InlineKeyboardButton('⚜️ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
+                       ],[
+                          InlineKeyboardButton("😇 Bᴏᴛ Oᴡɴᴇʀ 😇", url="https://t.me/PERSONAL_CHAT_ASSISTANT_BOT")
+                         ]
                         ]
                     )
                 )
@@ -177,14 +177,15 @@ async def start(client, message):
                     caption=f_caption,
                     protect_content=msg.get('protect', False),
                     reply_markup=InlineKeyboardMarkup(
-                        [
                          [
+                          [
+                           InlineKeyboardButton('🎥 ᴡᴀᴛᴄʜ & ᴅᴏᴡɴʟᴏᴀᴅ 🔋', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @LazyDeveloperr
+                       ],[       
+                          InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ 📢', url=GRP_LNK),
+                          InlineKeyboardButton('⚜️ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
                        ],[
-                         ],[ 
-                            InlineKeyboardButton('😃 ᴡᴀᴛᴄʜ & ᴅᴏᴡɴʟᴏᴀᴅ 😋', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @LazyDeveloperr
-                             ],[ 
-                                 InlineKeyboardButton('⁉️ ᴄʟᴏsᴇ ⁉️', callback_data='close_data')
-                            ]
+                          InlineKeyboardButton("😇 Bᴏᴛ Oᴡɴᴇʀ 😇", url="https://t.me/PERSONAL_CHAT_ASSISTANT_BOT")
+                         ]
                         ]
                     )
                 )
@@ -335,21 +336,20 @@ async def start(client, message):
                 caption=f_caption,
                 protect_content=True if pre == 'filep' else False,
                 reply_markup=InlineKeyboardMarkup(
-                    [
                      [
-                   ],[
-                     ],
-                     [
-                        InlineKeyboardButton('😃 ᴡᴀᴛᴄʜ & ᴅᴏᴡɴʟᴏᴀᴅ 😋', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @LazyDeveloperr
-                        ],[ 
-                            InlineKeyboardButton('⁉️ ᴄʟᴏsᴇ ⁉️', callback_data='close_data') 
-
-                     ]
-                    ]
+                       [
+                          InlineKeyboardButton('🎥 ᴡᴀᴛᴄʜ & ᴅᴏᴡɴʟᴏᴀᴅ 🔋', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @LazyDeveloperr
+                       ],[       
+                          InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ 📢', url=GRP_LNK),
+                          InlineKeyboardButton('⚜️ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
+                       ],[
+                          InlineKeyboardButton("😇 Bᴏᴛ Oᴡɴᴇʀ 😇", url="https://t.me/PERSONAL_CHAT_ASSISTANT_BOT")
+                         ]
+                        ]
+                    )
                 )
-            )
             filesarr.append(msg)
-        k = await client.send_message(chat_id = message.from_user.id, text=f"<b>ᴛʜᴀɴᴋ ʏᴏᴜ ᴀʟʟ ꜰᴏʀ ʙᴇɪɴɢ ᴡɪᴛʜ ᴜꜱ. ʜᴏᴘᴇꜰᴜʟʟʏ ᴇᴠᴇʀʏᴏɴᴇ ᴡɪʟʟ ꜱᴛᴀɴᴅ ʙʏ ʟɪᴋᴇ ᴛʜɪꜱ, আমাদের সাথে থাকার জন্য সবাইকে ধন্যবাদ। আশা করি সবাই এভাবেই পাশে থাকবেন</b>")
+        k = await client.send_message(chat_id = message.from_user.id, text=f"<b></b>")
         await asyncio.sleep()
         for x in filesarr:
             await x.delete()
@@ -400,18 +400,18 @@ async def start(client, message):
                 file_id=file_id,
                 protect_content=True if pre == 'filep' else False,
                 reply_markup=InlineKeyboardMarkup(
-                    [
                      [
-                   ],[
-                     ],
-                     [
-                        InlineKeyboardButton('😃 ᴡᴀᴛᴄʜ & ᴅᴏᴡɴʟᴏᴀᴅ 😋', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @LazyDeveloperr
-                        ],[ 
-                            InlineKeyboardButton('⁉️ ᴄʟᴏsᴇ ⁉️', callback_data='close_data')  
-                     ]
-                    ]
+                        [
+                           InlineKeyboardButton('🎥 ᴡᴀᴛᴄʜ & ᴅᴏᴡɴʟᴏᴀᴅ 🔋', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @LazyDeveloperr
+                       ],[       
+                          InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ 📢', url=GRP_LNK),
+                          InlineKeyboardButton('⚜️ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
+                       ],[
+                          InlineKeyboardButton("😇 Bᴏᴛ Oᴡɴᴇʀ 😇", url="https://t.me/PERSONAL_CHAT_ASSISTANT_BOT")
+                         ]
+                        ]
+                    )
                 )
-            )
             filetype = msg.media
             file = getattr(msg, filetype.value)
             title = '@moviee_Hub_channel ' + ' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), file.file_name.split()))
@@ -424,9 +424,9 @@ async def start(client, message):
                     return
             await msg.edit_caption(f_caption)
             btn = [[
-                InlineKeyboardButton("Get File Again", callback_data=f'delfile#{file_id}')
+                InlineKeyboardButton("ɢᴇᴛ ꜰɪʟᴇ ᴀɢᴀɪɴ", callback_data=f'delfile#{file_id}')
             ]]
-            k = await msg.reply("<b>ᴛʜᴀɴᴋ ʏᴏᴜ ᴀʟʟ ꜰᴏʀ ʙᴇɪɴɢ ᴡɪᴛʜ ᴜꜱ. ʜᴏᴘᴇꜰᴜʟʟʏ ᴇᴠᴇʀʏᴏɴᴇ ᴡɪʟʟ ꜱᴛᴀɴᴅ ʙʏ ʟɪᴋᴇ ᴛʜɪꜱ</b> ,<b><i> আমাদের সাথে থাকার জন্য সবাইকে ধন্যবাদ। আশা করি সবাই এভাবেই পাশে থাকবেন </i></b>",quote=True)
+            k = await msg.reply("<b> </i></b>",quote=True)
             await asyncio.sleep()
             await msg.delete()
             await k.edit_text("<b>Your File/Video is successfully deleted!!!\n\nClick below button to get your deleted file 👇</b>",reply_markup=InlineKeyboardMarkup(btn))
@@ -464,20 +464,21 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
              [
-           ],[
-             ],
-             [
-              InlineKeyboardButton('  😃 ᴡᴀᴛᴄʜ & ᴅᴏᴡɴʟᴏᴀᴅ 😋', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @LazyDeveloperr
-               ],[ 
-                    InlineKeyboardButton('⁉️ ᴄʟᴏsᴇ ⁉️', callback_data='close_data')  
+                InlineKeyboardButton('🎥 ᴡᴀᴛᴄʜ & ᴅᴏᴡɴʟᴏᴀᴅ 🔋', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @LazyDeveloperr
+            ],[       
+                 InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ 📢', url=GRP_LNK),
+                 InlineKeyboardButton('⚜️ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
+            ],[
+                InlineKeyboardButton("😇 Bᴏᴛ Oᴡɴᴇʀ 😇", url="https://t.me/PERSONAL_CHAT_ASSISTANT_BOT")
              ]
             ]
         )
     )
+   
     btn = [[
-        InlineKeyboardButton("Get File Again", callback_data=f'delfile#{file_id}')
+        InlineKeyboardButton("ɢᴇᴛ ꜰɪʟᴇ ᴀɢᴀɪɴ", callback_data=f'delfile#{file_id}')
     ]]
-    k = await msg.reply("<b>ᴛʜᴀɴᴋ ʏᴏᴜ ᴀʟʟ ꜰᴏʀ ʙᴇɪɴɢ ᴡɪᴛʜ ᴜꜱ. ʜᴏᴘᴇꜰᴜʟʟʏ ᴇᴠᴇʀʏᴏɴᴇ ᴡɪʟʟ ꜱᴛᴀɴᴅ ʙʏ ʟɪᴋᴇ ᴛʜɪꜱ</b>, <b><i>আমাদের সাথে থাকার জন্য সবাইকে ধন্যবাদ। আশা করি সবাই এভাবেই পাশে থাকবেন<i></b>",quote=True)
+    k = await msg.reply("<b><i></b>",quote=True)
     await asyncio.sleep()
     await msg.delete()
     await k.edit_text("<b>Your File/Video is successfully deleted!!!\n\nClick below button to get your deleted file 👇</b>",reply_markup=InlineKeyboardMarkup(btn))
