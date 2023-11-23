@@ -1,7 +1,9 @@
 class script(object):
     START_TXT = """<b>Hᴇʟʟᴏ {},
-Mʏ Nᴀᴍᴇ Is <a href=https://t.me/{}>{}</a>, I Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇs, Jᴜsᴛ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ As Aᴅᴍɪɴ Aɴᴅ Eɴᴊᴏʏ 😍
-</b>"""
+ɪ ᴀᴍ ᴀ ᴘᴏᴡᴇʀꜰᴜʟ ᴀᴜᴛᴏꜰɪʟᴛᴇʀ + ᴍᴀɴᴜᴀʟꜰɪʟᴛᴇʀ + ꜰɪʟᴇsᴛᴏʀᴇ ʙᴏᴛ.
+ʏᴏᴜ ᴄᴀɴ ᴜsᴇ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ɪ ᴡɪʟʟ ɢɪᴠᴇ ᴍᴏᴠɪᴇs ᴏʀ sᴇʀɪᴇs ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴘᴍ !!
+
+ɪᴛ ɪs ᴇᴀsʏ ᴛᴏ ᴜsᴇ ᴍᴇ, ᴊᴜsᴛ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴍᴀᴋᴇ ᴍᴇ ᴀs ᴀᴅᴍɪɴ 😍</b>"""
 
     HELP_TXT = """<b>Hᴇʏ {}
 Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.
@@ -201,15 +203,14 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION =  """<b> 📂 Fɪʟᴇ ɴᴀᴍᴇ : @moviee_Hub_channel {file_name} 
-    
-════════※ ·❆· ※════════
-▫️ Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ : <a href="https://t.me/bot_Update_jishu">ʙᴏᴛ ᴜᴘᴅᴀᴛᴇ</a>
-▫️ Mʏ Oᴡɴᴇʀ : <a href="https://t.me/Jishubabu"> ᴊɪꜱʜᴜ ʙᴀʙᴀ</a>  
-════════※ ·❆· ※════════
+    CAPTION =  """<b>🗂️ Fɪʟᴇ Nᴀᴍᴇ :- @moviee_Hub_channel <code>{file_name}</code>
 
-🚫 ᴘʟᴇᴀsᴇ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ᴄʟᴏsᴇ ʙᴜᴛᴛᴏɴ ɪꜰ ʏᴏᴜ ʜᴀᴠᴇ sᴇᴇɴ ᴛʜᴇ ᴍᴏᴠɪᴇ 🚫
-</b>"""
+🔮 Fɪʟᴇ Sɪᴢᴇ :- {file_size} 
+
+🌐 ᴏᴜʀ ᴏꜰꜰɪᴄɪᴀʟ ɢʀᴏᴜᴘ 
+➠ <a href=https://t.me/entertainment_baba> ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ</a>               
+➠ <a href=https://t.me/MOVIES_REQUEST_NOW_2_0> ʀᴇǫᴜᴇsᴛ ᴍᴏᴠɪᴇs</a></b>"""
+    
     IMDB_TEMPLATE_TXT = """<b>✅ Qᴜᴇʀʏ: <code>{query}</code>
     ɪᴍᴅʙ ᴅᴀᴛᴀ: <a href=https://t.me/moviee_Hub_channel>@ᴍᴏᴠɪᴇᴇ_ʜᴜʙ_ᴄʜᴀɴɴᴇʟ</a>
     
