@@ -1901,9 +1901,9 @@ async def auto_filter(client, msg, spoll=False):
         if len(message.text) < 100:
             search = message.text
             btn = [[
-                    InlineKeyboardButton(f"Searching  🔍  for {search}", url=CHNL_LNK)
+                    InlineKeyboardButton(f"𝐬𝐞𝐚𝐫𝐜𝐡𝐢𝐧𝐠 🔍 𝐟𝐨𝐫 {search}", url=CHNL_LNK)
                     ]]
-            m = await message.reply_sticker('CAACAgQAAxkBAAEFQDBlUNlxkmtt2stILxfPqnvf_jI7-wACAwMAAnJxFyXq2c9Wwc1VaR4E', reply_markup=InlineKeyboardMarkup(btn))       search = search.lower()
+            m = await message.reply_sticker('CAACAgQAAxkBAAIcc2VXO3h_3nCOfVQ2-LMbSG9hWVyvAAIFAwACcnEXJVhxIi6deAaOHgQ', reply_markup=InlineKeyboardMarkup(btn))       search = search.lower()
             search = search.lower()
             find = search.split(" ")
             search = ""
@@ -1933,9 +1933,9 @@ async def auto_filter(client, msg, spoll=False):
         message = msg.message.reply_to_message  # msg will be callback query
         search, files, offset, total_results = spoll
         btn = [[
-                InlineKeyboardButton(f"Searching  🔍  for {search}", url=CHNL_LNK)
-                ]]
-        m = await message.reply_sticker('CAACAgQAAxkBAAEFQDBlUNlxkmtt2stILxfPqnvf_jI7-wACAwMAAnJxFyXq2c9Wwc1VaR4E', reply_markup=InlineKeyboardMarkup(btn))    
+                    InlineKeyboardButton(f"𝐬𝐞𝐚𝐫𝐜𝐡𝐢𝐧𝐠 🔍 𝐟𝐨𝐫 {search}", url=CHNL_LNK)
+                    ]]
+        m = await message.reply_sticker('CAACAgQAAxkBAAIcc2VXO3h_3nCOfVQ2-LMbSG9hWVyvAAIFAwACcnEXJVhxIi6deAaOHgQ', reply_markup=InlineKeyboardMarkup(btn)) 
         settings = await get_settings(message.chat.id)
         await msg.message.delete()
     pre = 'filep' if settings['file_secure'] else 'file'
