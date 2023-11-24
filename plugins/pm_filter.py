@@ -1904,6 +1904,7 @@ async def auto_filter(client, msg, spoll=False):
                     InlineKeyboardButton(f"Searching  🔍  for {search}", url=CHNL_LNK)
                     ]]
             m = await message.reply_sticker('CAACAgQAAxkBAAEFQDBlUNlxkmtt2stILxfPqnvf_jI7-wACAwMAAnJxFyXq2c9Wwc1VaR4E', reply_markup=InlineKeyboardMarkup(btn))       search = search.lower()
+            search = search.lower()
             find = search.split(" ")
             search = ""
             removes = ["in","upload", "series", "full", "horror", "thriller", "mystery", "print", "file"]
