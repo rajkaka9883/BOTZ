@@ -1903,7 +1903,7 @@ async def auto_filter(client, msg, spoll=False):
             btn = [[
                     InlineKeyboardButton(f"𝐬𝐞𝐚𝐫𝐜𝐡𝐢𝐧𝐠 🔍 𝐟𝐨𝐫 {search}", url=CHNL_LNK)
                     ]]
-            m = await message.reply_sticker('CAACAgQAAxkBAAIcc2VXO3h_3nCOfVQ2-LMbSG9hWVyvAAIFAwACcnEXJVhxIi6deAaOHgQ', reply_markup=InlineKeyboardMarkup(btn))       search = search.lower()
+            m=await message.reply_sticker('CAACAgQAAxkBAAIcc2VXO3h_3nCOfVQ2-LMbSG9hWVyvAAIFAwACcnEXJVhxIi6deAaOHgQ', reply_markup=InlineKeyboardMarkup(btn))       search = search.lower()
             search = search.lower()
             find = search.split(" ")
             search = ""
@@ -1935,7 +1935,7 @@ async def auto_filter(client, msg, spoll=False):
         btn = [[
                     InlineKeyboardButton(f"𝐬𝐞𝐚𝐫𝐜𝐡𝐢𝐧𝐠 🔍 𝐟𝐨𝐫 {search}", url=CHNL_LNK)
                     ]]
-        m = await message.reply_sticker('CAACAgQAAxkBAAIcc2VXO3h_3nCOfVQ2-LMbSG9hWVyvAAIFAwACcnEXJVhxIi6deAaOHgQ', reply_markup=InlineKeyboardMarkup(btn)) 
+        m=await message.reply_sticker('CAACAgQAAxkBAAIcc2VXO3h_3nCOfVQ2-LMbSG9hWVyvAAIFAwACcnEXJVhxIi6deAaOHgQ', reply_markup=InlineKeyboardMarkup(btn)) 
         settings = await get_settings(message.chat.id)
         await msg.message.delete()
     pre = 'filep' if settings['file_secure'] else 'file'
